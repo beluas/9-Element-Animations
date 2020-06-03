@@ -1,0 +1,49 @@
+#rating1 {
+  background: #e3e1e1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* /div ENDS */ }
+  #rating1 h2 {
+    font-size: 2rem;
+    color: #061722;
+    margin-bottom: 4rem;
+    text-align: center; }
+  #rating1 div {
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    /* /label ENDS */ }
+    #rating1 div input {
+      display: none; }
+      #rating1 div input:checked ~ label:after {
+        opacity: 1; }
+    #rating1 div label {
+      display: block;
+      cursor: pointer;
+      width: 50px;
+      position: relative; }
+      #rating1 div label:before {
+        content: '\f005';
+        font-family: fontAwesome;
+        color: #8bb0ba;
+        font-size: 4.5rem;
+        position: relative;
+        display: block; }
+      #rating1 div label:hover:after, #rating1 div label:hover ~ label:after {
+        opacity: 1; }
+      #rating1 div label:after {
+        content: '\f005';
+        font-family: fontAwesome;
+        color: #f6d347;
+        font-size: 4.5rem;
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        transition: .5s;
+        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); }
+
+/* /#rating1 ENDS */
+
+/*# sourceMappingURL=rating1.css.map */

@@ -1,0 +1,76 @@
+#divBox1 {
+  background: #e3e1e1;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #divBox1 .container {
+    margin: 4rem;
+    width: 300px;
+    height: 300px;
+    background: transparent;
+    border: 1px solid transparent;
+    padding: .8rem;
+    transition: .5s;
+    position: relative;
+    z-index: 10;
+    box-shadow: none;
+    /* /shape ENDS*/
+    /* /&:hover ENDS */ }
+    #divBox1 .container .shape {
+      background: #fff;
+      width: 100%;
+      height: 100%;
+      transform: rotate(45deg) scale(1.2);
+      border: 10px solid #061722;
+      border-radius: 50%;
+      transition: .5s;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #divBox1 .container .shape p {
+        font-size: .9rem;
+        margin: 0;
+        padding: 1.8rem;
+        text-align: center;
+        transform: rotate(-45deg); }
+    #divBox1 .container:before {
+      content: '';
+      position: absolute;
+      width: 24px;
+      height: 90%;
+      background: #061722;
+      transition: .5s;
+      opacity: 0;
+      left: 0px;
+      animation-delay: .3s;
+      top: 5%;
+      z-index: -1; }
+    #divBox1 .container:after {
+      content: '';
+      position: absolute;
+      width: 24px;
+      height: 90%;
+      background: #061722;
+      transition: .5s;
+      opacity: 0;
+      right: 0px;
+      top: 5%;
+      animation-delay: .3s;
+      z-index: -1; }
+    #divBox1 .container:hover {
+      background: #fff;
+      border: 10px solid #061722; }
+      #divBox1 .container:hover:before {
+        left: -40px;
+        opacity: 1; }
+      #divBox1 .container:hover:after {
+        right: -40px;
+        opacity: 1; }
+      #divBox1 .container:hover .shape {
+        border-radius: 0; }
+
+/* /#rating1 ENDS */
+
+/*# sourceMappingURL=testimonial1.css.map */

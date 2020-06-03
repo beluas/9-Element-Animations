@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import 'list1.scss';
+@import 'list2.scss';
+@import 'rating1.scss';
+@import 'testimonial1.scss';
+@import 'divBox2.scss';
+@import 'divBox3.scss';
+@import 'divBox4.scss';
+@import 'divBox5.scss';
+@import 'divBox6.scss';
+@import 'divBox7.scss';
+
+
+
+
+
+*
+{
+	box-sizing:border-box;
+}
+
+html
+{
+	font-family: "Montserrat";
+}
+
+section
+{
+	padding: 2rem;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	width:90%;
+	margin:3rem auto;
+}
+
+h2
+{
+	font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+

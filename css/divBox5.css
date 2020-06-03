@@ -1,0 +1,55 @@
+#divBox5 {
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  /* /section ENDS*/ }
+  #divBox5 h2 {
+    text-align: center;
+    margin-bottom: 5rem; }
+  #divBox5 article {
+    display: flex;
+    justify-content: space-between; }
+    #divBox5 article .box {
+      position: relative;
+      width: 300px;
+      height: 100px;
+      text-align: center;
+      /* /details ENDS */ }
+      #divBox5 article .box:not(first-child) {
+        margin-left: .8rem; }
+      #divBox5 article .box .icon {
+        width: 100%;
+        height: 100%;
+        background: #001f3f;
+        transition: .5s;
+        transform-origin: top;
+        transform: translateY(0) rotateX(0deg);
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        #divBox5 article .box .icon i {
+          color: #fff;
+          font-size: 2.6rem;
+          line-height: 100px; }
+      #divBox5 article .box .details {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #ccc;
+        transition: .5s;
+        transform: translateY(-100%) rotateX(90deg);
+        transform-origin: bottom; }
+        #divBox5 article .box .details h3 {
+          font-size: 1rem;
+          color: #001f3f;
+          line-height: 70px; }
+      #divBox5 article .box:hover .icon {
+        transform: translateY(100%) rotateX(90deg); }
+      #divBox5 article .box:hover .details {
+        transform: translateY(0%) rotateX(0deg); }
+
+/* /#divBox5 ENDS */
+
+/*# sourceMappingURL=divBox5.css.map */

@@ -1,0 +1,96 @@
+#divBox6 {
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  /* /article ENDS*/ }
+  #divBox6 h2 {
+    text-align: center; }
+  #divBox6 article {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0; }
+    #divBox6 article .box {
+      width: 200px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      position: relative; }
+      #divBox6 article .box h2 {
+        margin: auto 0;
+        width: 100%;
+        text-transform: uppercase;
+        z-index: 1;
+        font-size: 1.6rem; }
+        #divBox6 article .box h2 span {
+          font-size: 2rem;
+          margin: 1rem 0;
+          color: #001f3f; }
+      #divBox6 article .box:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 104%;
+        height: 98%;
+        border: none;
+        border-top: 4px solid #001f3f;
+        border-bottom: 4px solid #001f3f;
+        transition: .5s;
+        transform: scaleX(0); }
+      #divBox6 article .box:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-left: 4px solid #001f3f;
+        border-right: 4px solid #001f3f;
+        transition: .5s;
+        transform: scaleY(0); }
+      #divBox6 article .box:hover:before {
+        transform: scaleX(1); }
+      #divBox6 article .box:hover:after {
+        transform: scaleY(1); }
+      #divBox6 article .box .border {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: block;
+        transform: rotate(45deg);
+        pointer-events: none; }
+        #divBox6 article .box .border:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 104%;
+          height: 98%;
+          border: none;
+          border-top: 4px solid #001f3f;
+          border-bottom: 4px solid #001f3f;
+          transition: .5s;
+          transform: scaleX(0); }
+        #divBox6 article .box .border:after {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          border: none;
+          border-left: 4px solid #001f3f;
+          border-right: 4px solid #001f3f;
+          transition: .5s;
+          transform: scaleY(0); }
+      #divBox6 article .box:hover .border:before {
+        transform: scaleX(1); }
+      #divBox6 article .box:hover .border:after {
+        transform: scaleY(1); }
+
+/* /#divBox5 ENDS */
+
+/*# sourceMappingURL=divBox6.css.map */

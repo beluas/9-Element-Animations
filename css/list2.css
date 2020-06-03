@@ -1,0 +1,68 @@
+#list2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem auto;
+  width: 90%;
+  background: #e3e1e1;
+  padding: 2rem 2rem 3rem; }
+  #list2 h2 {
+    font-size: 2rem;
+    color: #061722;
+    margin-bottom: 4rem;
+    text-align: center; }
+  #list2 ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0; }
+    #list2 ul li {
+      color: #fff;
+      transition: .5s;
+      border-top: 1px solid #061722;
+      border-bottom: 1px solid #061722;
+      margin: -1px 0;
+      transition: .5s; }
+      #list2 ul li:hover {
+        transform: translateX(25px); }
+      #list2 ul li:nth-child(1) a:hover span:nth-child(1) {
+        background: #3b5999; }
+      #list2 ul li:nth-child(2) a:hover span:nth-child(1) {
+        background: #55acee; }
+      #list2 ul li:nth-child(3) a:hover span:nth-child(1) {
+        background: #dd4b39; }
+      #list2 ul li:nth-child(4) a:hover span:nth-child(1) {
+        background: #0077B5; }
+      #list2 ul li:nth-child(5) a:hover span:nth-child(1) {
+        background: #e4405f; }
+      #list2 ul li:nth-child(6) a:hover span:nth-child(1) {
+        background: #061722; }
+      #list2 ul li a {
+        text-decoration: none;
+        color: #061722;
+        border-right: 1px solid;
+        display: block;
+        font-size: 1.4rem; }
+        #list2 ul li a:hover span:nth-child(1) {
+          background: #061722; }
+          #list2 ul li a:hover span:nth-child(1) i {
+            transform: rotateY(360deg);
+            color: #fff; }
+        #list2 ul li a span {
+          position: relative;
+          display: inline-block;
+          padding: 1rem; }
+          #list2 ul li a span:nth-child(1) {
+            width: 60px;
+            border-left: 1px solid #061722;
+            border-right: 1px solid #061722;
+            transition: .5s;
+            color: #061722;
+            text-align: center; }
+            #list2 ul li a span:nth-child(1) i {
+              transition: .5s ease-in-out; }
+          #list2 ul li a span:nth-child(2) {
+            width: 250px;
+            transition: .5s;
+            color: #061722; }
+
+/*# sourceMappingURL=list2.css.map */
